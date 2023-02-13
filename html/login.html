@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            background-color: rgb(66, 66, 240);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-transform:capitalize ;
+            color: azure;
+            font-size: xx-large;
+            text-align: center;
+            
+           
+            
+        }
+        section{
+            text-align: center;
+        }
+        #form_sec{
+            display: block;
+            border: 1px  blue;
+            width: 300px;
+            height: 200px;
+            padding: 10px;
+            margin: 12px;
+           position: relative;
+           left: 400px;
+           top: 100px;
+           background-color: rgb(55, 55, 232);
+           display: flex;
+           border-radius: 12px 12px;
+        }
+        label{
+            color: aliceblue;
+            font-size: larger;
+            padding: 10px;
+            margin: 10px;
+        }
+        .btn{
+           
+            font-size: larger;
+            border-radius: 12px;
+            background-color: rgb(10, 10, 99);
+            color :white;
+            border: white;
+            padding: 10px;
+
+        }
+        #msg{
+            background-color: blue;
+            color: white;
+           width: max-content;
+            position: relative;
+            left: 420px;
+            bottom:-100px;
+            font-size: larger;
+            padding: 10px;
+            border-radius: 12px;
+        }
+        #btn1{
+            background-color: rgb(113, 208, 113);
+            color: green;
+        }
+        #btn2{
+            background-color: rgb(228, 116, 120);
+            color: rgba(212, 14, 14, 0.954);
+        }
+    </style>
+</head>
+<body>
+    <header>
+       business bank
+    </header>
+    <section id="form_sec">
+        <form>
+            <label for="">name</label>
+            <input type="text" name="" id="">
+            <br>
+            <br>
+            <label for="">password</label>
+            <input type="password" name="" id="">
+            <br><br>
+            <button class="btn" id="btn1" type="submit">login</button>  &emsp;
+            <button class=" btn" id="btn2" type="reset">leave</button>
+        </form>
+    </section>
+    <div id="msg">
+       welcome ypu have been  login now 
+    </div>
+</body>
+</html>
